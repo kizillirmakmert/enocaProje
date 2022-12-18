@@ -25,3 +25,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+angular ile ımdb api çekerek verileri işledik figmada bulunan tasarıma sadık kalarak bir movie sitesi uyguladık tam anlamıyla güzel bir projeydi eksiklerimi gördüm tekrardan teşekkür ederim
