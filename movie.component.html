@@ -1,0 +1,92 @@
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasarım Kodlama</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+ 
+    <!-- sayfa üstü-->
+    <div class="arkaplan alt-kenar-10">
+        
+    </div>
+ 
+    <!-- sayfa ortası-->
+    <div class="orta kapsayici">
+        <h1>Popüler Filmler</h1>
+        <div class="bolum2">
+            <!-- <h1>Popüler Filmler</h1> -->
+            <div class="kutu" *ngFor="let yaz of movies">
+                <div class="card-image" style="color: #213661;">
+                    <img src="https://image.tmdb.org/t/p/w500{{yaz.backdrop_path}}"
+                     class="image-card" />
+                </div>
+                
+            </div>
+        </div>
+        <h1>Yeni Çıkanlar</h1>
+        <div class="bolum2">
+            <!-- <h1>Yeni Çıkanlar</h1> -->
+            <div class="kutu" *ngFor="let yaz of movies">
+                <div class="card-image" style="color: #213661;">
+                    <img src="https://image.tmdb.org/t/p/w500{{yaz.backdrop_path}}" class="image-card" />
+                </div>
+              
+            </div>
+        </div>
+        <h1>Yakında Çıkacaklar</h1>
+        <div class="bolum2">
+            <!-- <h1>Yakında Çıkacaklar</h1> -->
+            <div class="kutu" *ngFor="let yaz of movies">
+                <div class="card-image" style="color: #213661;" >
+                    <img src="https://image.tmdb.org/t/p/w500{{yaz.backdrop_path}}" class="image-card"   />
+                </div>
+               
+              
+            </div>
+        </div>
+        <br>
+        <h1>Ençok Beğenilenler</h1>
+        <div class="bolum2">
+            <!-- <h1>Ençok Beğenilenler</h1> -->
+            <div class="kutu" *ngFor="let yaz of movies">
+                <div class="card-image" style="color: #213661;">
+                    <img src="https://image.tmdb.org/t/p/w500{{yaz.backdrop_path}}" class="image-card" />
+                </div>
+               
+            </div>
+        </div>
+        
+    </div>
+ 
+    <!-- sayfa altı-->
+    <div class="arkaplan">
+        <div class="alt kapsayici">
+            <div class="baglanti">
+               
+            </div>
+            <div class="baglanti">
+                <ul>
+                    
+                </ul>
+            </div>
+            <div class="baglanti">
+                <ul>
+                   
+                </ul>
+            </div>
+            <div class="baglanti">
+                <ul>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
